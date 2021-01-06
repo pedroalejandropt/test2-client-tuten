@@ -1,38 +1,33 @@
-.App {
+.clock {
   text-align: center;
+  font-size: 40px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.forms {
+  text-align: center;
+  font-size: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input { 
+  width: 30%;
+  font-size: 20px;
+   margin-left: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button {
+  margin-top: 1rem;
+  height: 3rem;
+  width: 8rem;
+  font-size: 20px;
+  background-color: lightcoral;
+  border: 0;
+  border-radius: 10px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  padding: 10% 0%;
+  color: black;
+  font-family: "Sacramento";
+  letter-spacing: 8px;
 }
